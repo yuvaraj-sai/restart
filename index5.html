@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .conta {
+            text-align: center;
+        }
+
+        .yuvi {
+            width: 320px;
+            border-color: lightgray;
+            border-width: 1px;
+            border-style: solid;
+            margin: 63px;
+            display: inline-block;
+            text-align: center;
+
+        }
+
+        .head {
+            background-color: gray;
+            color: white;
+            padding: 60px;
+        }
+
+        .para {
+            padding: 10px;
+        }
+
+        @media screen and (max-width:1100px) {
+            .three {
+                display: block;
+            }
+
+            .yuvi {
+                margin: 30px;
+                width: 800px;
+                margin: 100px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .head {
+                padding: 90px;
+            }
+        }
+
+        @media screen and (max-width:500px) {
+            .yuvi {
+                margin: 30px;
+                width: 300px;
+                margin: 100px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .conta {
+                margin: 50px;
+                width: 400px;
+            }
+        }
+    </style>
+
+
+
+    <div class="conta">
+        <div>
+            <h1 class="pt-5">Album example</h1>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, consequatur, doloribus
+                officia <br> adipisci atarchitecto consequuntur sint porro ad iure impedit ab. Voluptatibus,
+                perspiciatis <br> maiores harum ea quam
+                labore consequatur.</p>
+            <button class="text-white bg-primary p-1">Main call to action</button>
+            <button class="text-white bg-secondary p-1">Secondary action</button>
+        </div>
+    </div>
+
+    <div class="yuvi">
+        <div>
+            <h1 class="head">Thumbnail</h1>
+            <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore culpa quo aspernatur
+                possimus dolorum!</p>
+            <button>View</button>
+            <button class="me-5 ">Edit</button>
+            <h6 style="display: inline-block; padding-left: 100px; ">9 mins</h6>
+        </div>
+    </div>
+
+    <div class="yuvi">
+        <div>
+            <h1 class="head">Thumbnail</h1>
+            <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore culpa quo aspernatur
+                possimus dolorum!</p>
+            <button>View</button>
+            <button class="me-5 ">Edit</button>
+            <h6 style="display: inline-block; padding-left: 100px; ">9 mins</h6>
+        </div>
+    </div>
+
+    <div class="yuvi">
+        <div class="three">
+            <h1 class="head">Thumbnail</h1>
+            <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore culpa quo aspernatur
+                possimus dolorum!</p>
+            <button>View</button>
+            <button class="me-5 ">Edit</button>
+            <h6 style="display: inline-block; padding-left: 100px; ">9 mins</h6>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
